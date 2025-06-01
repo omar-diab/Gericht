@@ -1,9 +1,8 @@
-import React from 'react'
+import React from 'react';
+import ReactDOM from 'react-dom/client';
 
-const index = () => {
-  return (
-    <div>index</div>
-  )
-}
+import './index.css';
+import App from './App';
 
-export default index
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<App />);
