@@ -56,6 +56,7 @@ const cocktails = [
   },
 ];
 
+
 const awards = [
   {
     imgUrl: images.award02,
@@ -74,7 +75,7 @@ const awards = [
   },
   {
     imgUrl: images.award03,
-    title: 'Outstanding Chef',
+    title: 'Chef',
     subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
   },
 ];
